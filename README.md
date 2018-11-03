@@ -9,6 +9,7 @@ Find the shortest vector of a lattice using exhaustive enumeration.
  - `v_idx` = index of v_short with respect to the basis passed in. In other words, `v_short = mtx_M*v_idx`
 
 Near-verbatim implementation of `ENUM` from the following reference:
+
     {
       @article{schnorr1994lattice,
       title={Lattice basis reduction: Improved practical algorithms and solving subset sum problems},
